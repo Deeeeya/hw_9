@@ -1,0 +1,5 @@
+1. What are relationships in SQL? Joins? →  SQL relationships are the established associations between two or more tables. Joins are used to combine rows from two or more tables based on a related column between them.
+2. How do joins and relationships interact? → Joins interact by combining data into a single table, while relationships are used to establish a connection between tables allowing data access without merging.
+3. What’s a PDO? a DSN? → A PDO is a built-in class that comes packaged with PHP to make it easy for you to interact with databases and represent and manage the connection to the database. A DSN is  a string that contains information about our connection to the database.                         
+4. What are prepared statements? Why do we need them? → It is a parameterized and reusable SQL query that forces the developer to write the SQL command and the user-provided data separately. We need them primarily for security to prevent SQL injection.
+5. What does an .env file do? → It stores key-value pairs of environment variables, which is used to hold sensitive information and keep them separate from codebases.
